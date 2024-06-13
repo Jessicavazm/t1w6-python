@@ -21,7 +21,7 @@
 # print(size)
 # print(len(a))
 
-# String manipulation, you can assign the result to a variable and then print the variable, or you can call the function inside of print().
+# #String manipulation, you can assign the result to a variable and then print the variable, or you can call the function inside of print().
 
 #Storing result in a variable and then priting the variable
 # a = "Jess"
@@ -106,6 +106,107 @@
 # L1 = list(range(1,50,3))
 # print(L1)
 
-L2 = [5,7,2,9,4,1,3]
+# L2 = [5,7,2,9,4,1,3]
 
-print(len(L2),max(L2),min(L2),sum(L2),sorted(L2))
+# print(len(L2),max(L2),min(L2),sum(L2),sorted(L2))
+
+# def calculate_rocket_fuel_required(distance):
+#     fuel = distance * 15
+#     if fuel < 100:
+#         return 100
+#     else:
+#         return fuel
+# print(calculate_rocket_fuel_required(20))
+
+# nota_media = {"Jess":7, "Joao":5, "Luke":10}
+
+# print(nota_media)
+
+# nota_media["Jess"] = 5
+# print(nota_media)
+
+# nota_requerida = 7
+
+# if nota_requerida in nota_media.values():
+#     print(f"Yes there's a {nota_requerida}")
+
+# else:
+#     print(f"There's no {nota_requerida}")
+
+# STR.format
+
+# name = "Jess"
+# age = 33
+
+# # print("{} is {} years old".format(name,age))
+
+# name_age = "{} is {} years old".format(name,age)
+# print(name_age)
+
+# nota_media = {"Jess":7, "Joao":5, "Luke":10}
+
+# import statistics
+# numbers = [8,7,10]
+# median = statistics.median(numbers)
+# print(f"The median is: {median}")
+
+#Python library
+
+# icecream = input("What's your favourite ice cream flavour? ").lower()
+
+# if icecream == "chocolate":
+#     print("You have good taste!!")
+# elif icecream == "vanilla":
+#     print("That's weird!!")
+# elif icecream == "strawberry":
+#     print("You must be a kid") 
+# else:
+#     print("Ok, which one is it then?")       
+
+# idade = int(input("Qual a sua idade? "))
+
+# if idade > 60:
+#     print("You are in the best age!!")
+# elif idade > 10 and idade < 30:
+#     print("You have a lot to learn!!")
+# else:
+#     print("Enjoy it, because time flies!!")    
+
+#Program school marks
+
+# #Importing statistics functions to later use median()
+# import statistics
+
+# # #Assigning mark 1, mark 2
+# mark1 = 4
+# mark2 = 7
+
+# #Creating a list of marks
+# marks = [mark1, mark2]
+
+# #Calculating the median
+# median = statistics.median(marks)
+
+# #Printing the median mark
+# print(f"The median mark is: ",median)
+
+# #Checking if the median is sufficient to pass
+# if median >= 6:
+#     print("Congratulations, you have passed!!")
+# elif median > 4 and median < 6:
+#     print("You did ok, better to study more next time")   
+# else:
+#     print("You haven't passed, you need to study more!")
+
+#LOOPS
+
+# password = "12345"
+# input_user = ""
+# while input_user != password:
+#     input_user = input("Digite your code: ")
+#     if input_user == password:
+#         print("Access granted")
+        
+#     else:
+#         print("Try again")
+

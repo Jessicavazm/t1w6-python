@@ -210,3 +210,38 @@
 #     else:
 #         print("Try again")
 
+# Find the sum of S = 1+4+7+10+13+16+19
+
+# S = 0
+# for x in range(1,20,3):
+#     S = S+x
+# print("Sum = ",S)        
+
+# Calculate median for students marks
+
+# Marks_list = [3.4, 6.6, 8, 9, 10, 9.5, 8.8, 4.3]
+# sum = 0
+
+# for nota in Marks_list:
+#     sum = sum + nota
+# marks_mean = sum/len(Marks_list)
+# print("Median =", marks_mean)
+
+# Function, how to define a .function
+
+# def hello_function():
+#     print("Helllo world!!")
+
+# hello_function()
+
+# Parameters and arguments
+# Function to print higher number between two numbers, remember to see the result you can call the function.
+
+def higher_number (x,y):
+    if x > y:
+        print(x)
+    else:
+        print(y)    
+
+higher_number(9,7)      
+

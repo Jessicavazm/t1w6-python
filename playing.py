@@ -237,11 +237,28 @@
 # Parameters and arguments
 # Function to print higher number between two numbers, remember to see the result you can call the function.
 
-def higher_number (x,y):
-    if x > y:
-        print(x)
-    else:
-        print(y)    
+# def higher_number (x,y):
+#     if x > y:
+#         print(x)
+#     else:
+#         print(y)    
 
-higher_number(9,7)      
+# higher_number(9,7)      
+
+# Global variable
+
+# def soma(x,y):
+#     global total
+#     total = x+y
+#     print("Total sum:",total)
+
+# soma(3,5)
+
+# def add_numbers(x,y):
+#     result = x + y
+#     return result
+
+# s = add_numbers(3,5)
+
+# print("Sum is:", s)
 
